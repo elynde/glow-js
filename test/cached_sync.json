@@ -1,0 +1,116 @@
+{
+  "data": {
+    "babies": [
+      {
+        "Baby": {
+          "update": []
+        },
+        "BabyData": {
+          "update": [
+            {
+              "end_timestamp": 1483372800,
+              "key": "sleep"
+            },
+            {
+              "end_timestamp": 1483387200,
+              "key": "sleep"
+            }
+          ]
+        },
+        "BabyFeedData": {
+          "remove": [],
+          "update": [
+            {
+              "feed_type": 1,
+              "start_timestamp": 1483390800
+            },
+            {
+              "feed_type": 1,
+              "start_timestamp": 1483376400
+            }
+          ]
+        },
+        "baby_id": "test_baby_id",
+        "sync_time": 1501987870,
+        "sync_token": "test_sync_token"
+      }
+    ],
+    "user": {
+      "Notification": {
+        "update": [
+          {
+            "action_context": {
+              "action_button": 8,
+              "android_links": [
+                {
+                  "text": "Check it out",
+                  "url": "https://glowing.com/community/topic/2496857?type=2006"
+                }
+              ],
+              "button_text": "Take a look!",
+              "ios_link": "https://glowing.com/community/topic/2496857",
+              "topic_id": 2496857,
+              "url": "https://glowing.com/community/topic/2496857"
+            },
+            "button": 8,
+            "id": 30060704,
+            "text": "Baby selfie fail",
+            "thumbnail": null,
+            "time_created": 1501902309,
+            "time_modified": 1501902309,
+            "time_removed": 0,
+            "title": "Check out the real talk in Glow:",
+            "type": 2006,
+            "unread": 1,
+            "url": "https://glowing.com/community/topic/2496857",
+            "user_id": "test_user_id"
+          }
+        ]
+      },
+      "User": {
+        "update": [
+          {
+            "android_version": "10704",
+            "app_version": "",
+            "background_image": "",
+            "bio": "",
+            "birthday": 541209375,
+            "current_baby_id": "test_baby_id",
+            "email": "testemail@gmail.com",
+            "email_verified": 1,
+            "encrypted_token": "some_encrypted_token",
+            "first_name": "Test User First Name",
+            "gender": "M",
+            "glow_open_time_created": 1458794488,
+            "glow_open_time_modified": 1501298459,
+            "glow_open_time_removed": 0,
+            "has_password": true,
+            "hide_posts": 0,
+            "id": "test_user_id",
+            "last_name": "Test User Last Name",
+            "locale": "en_US",
+            "location": "",
+            "major": 0,
+            "phone_country_code": null,
+            "phone_num": null,
+            "profile_image": "",
+            "receive_push_notification": 1,
+            "status": 0,
+            "time_created": 1482814195,
+            "time_modified": 1501298459,
+            "time_removed": 0,
+            "time_zone": "America/Los_Angeles",
+            "tutorial_status": 3,
+            "type": 10,
+            "user_id": "test_user_id",
+            "website": ""
+          }
+        ]
+      },
+      "sync_time": 1501987869,
+      "sync_token": "test_token_not_real_one",
+      "user_id": "test_user_id"
+    }
+  },
+  "rc": 0
+}

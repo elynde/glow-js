@@ -1,0 +1,12 @@
+{
+  "data": {
+    "babies": [],
+    "rc": 0,
+    "user": {
+      "current_baby_id": 1234,
+      "email": "testemail@gmail.com",
+      "encrypted_token": "test_encrypted_token"
+    }
+  },
+  "rc": 0
+}

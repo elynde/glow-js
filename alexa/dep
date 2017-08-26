@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Zipping..."
+zip -rq /tmp/glow.zip .
+
+echo "Deploying..."
+aws lambda update-function-code --function-name arlo_awake_time --zip-file fileb:///tmp/glow.zip
+
+echo "Invoking..."
+aws lambda invoke --function-name arlo_awake_time /tmp/output.txt --payload fileb://testPayload.json
+cat /tmp/output.txt

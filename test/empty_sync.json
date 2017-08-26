@@ -1,0 +1,25 @@
+{
+  "data": {
+    "babies": [
+      {
+        "BabyData": {},
+        "BabyFamily": {},
+        "BabyFeedData": {},
+        "BabyMilestone": {},
+        "Photo": {},
+        "UserBabyRelation": {},
+        "sync_time": 1502253282,
+        "sync_token": "empty_sync_token"
+      }
+    ],
+    "user": {
+      "User": {
+        "update": [ ]
+      },
+      "sync_time": 1502253282,
+      "sync_token": "empty_sync_user_token",
+      "user_id": 72057594050014062
+    }
+  },
+  "rc": 0
+}
