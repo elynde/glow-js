@@ -41,6 +41,7 @@ var handlers = {
 
     g.fetchHowLongUnfedText(
       text => {
+        console.log((+new Date()) - start);
         var str = baby_name ? baby_name + " was" : "";
         this.emit(':tell', str + " last fed " + text + " ago");
       }
