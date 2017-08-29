@@ -7,6 +7,9 @@ var credentials = GlowUtils.getSavedCredentials();
 
 var handlers = {
   'AwakeTime': function() {
+    console.log('here');
+    console.log(this);
+    console.log(this.attributes);
     var start = +new Date();
     var g = new GlowDataFetcher(
       credentials.email,
@@ -26,6 +29,8 @@ var handlers = {
   },
 
   'FeedTime': function() {
+    console.log(this);
+    console.log(this.attributes);
     var g = new GlowDataFetcher(
       credentials.email,
       credentials.password,
