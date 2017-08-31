@@ -1,4 +1,5 @@
 {
+  "name": "glow-js",
   "dependencies": {
     "alexa-sdk": "^1.0.11",
     "moment": "^2.18.1"
